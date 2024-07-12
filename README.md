@@ -10,8 +10,8 @@ The main sections of the app include:
 
     -   A Database
     -   A Leads Module
-    -   A User Module
-    -   Authentication Module
+    -   A Users Module
+    -   An Authentication Module
 
 -   The User Interface
 
@@ -68,7 +68,7 @@ The main sections of the app include:
     7. cd into the frontend folder
 
     ```sh
-        cd ../frontend
+        cd frontend
     ```
 
     8. install npm dependencies

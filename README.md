@@ -1,6 +1,6 @@
 # instacom-assignment
 
-Fullstack App for capturing Leads. Captures the first name, last name, email and phoenumber.
+Fullstack App for capturing Leads. Captures the first name, last name, email and phonenumber.
 
 # Functionality
 

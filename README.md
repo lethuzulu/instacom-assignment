@@ -87,6 +87,7 @@ The main sections of the app include:
 
     -   [Actix-web framework](https://actix.rs/)
     -   [SeaORM](https://www.sea-ql.org/SeaORM/)
+    -   [Actix-Web-Lab](https://crates.io/crates/actix-web-lab)
     -   [PostgreSQL](https://www.postgresql.org/)
     -   [Serde](https://serde.rs/)
     -   [ReactJS](https://react.dev/)

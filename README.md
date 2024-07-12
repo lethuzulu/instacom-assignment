@@ -95,3 +95,11 @@ The main sections of the app include:
 
 
 Note: Upon starting the application the database will be seeded with 9 Leads, whose creation creation date default from 2024-07-01 to 2024-07-09. This is just a convenience to demo the filtering feature. These leads can be removed or new ones can be added.
+
+# Features
+- Unique Email: Unique email constraint is enforced on the Users module. No two users can share the same email. But it is not enforced on the leads.
+- Authentication: JWT Authentication is enforced for leads.
+
+# Limitations
+- Email Validation: Email validation is missing on the API. It can however be configured at a later date using the [Validator](https://crates.io/crates/validator) crate. At the time of this writing the Validator crate could not be imported.
+- Phonenumber Validation: Phone number validation is also missing on the API. The phone number is stored as a string instead of an appropriate data type. Thus it's possible to store a phone number as 072abc
